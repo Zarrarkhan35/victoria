@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register - Victoria Academy</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+  <div class="form-box">
+    <h1>Registration Form</h1>
+    <form action="success.html" method="GET">
+      <label>Full Name</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Phone Number</label>
+      <input type="tel" name="phone" required>
+
+      <label>Select Course</label>
+      <select name="course" required>
+        <option value="">--Choose--</option>
+        <option value="IELTS">IELTS</option>
+        <option value="PTE">PTE</option>
+        <option value="Spoken English">Spoken English</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
